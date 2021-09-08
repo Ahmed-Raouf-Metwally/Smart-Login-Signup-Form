@@ -101,7 +101,7 @@ button {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    border: 1px solid ;
+    border: 1px solid;
     border-color: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
     background: #a6c1ee;
     color: #fff;
@@ -112,7 +112,8 @@ button {
     text-transform: uppercase;
     transition: transform 80ms ease-in;
 }
-.b2{
+
+.b2 {
     border: 1px solid;
     border-color: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
     background: #eea2a2;

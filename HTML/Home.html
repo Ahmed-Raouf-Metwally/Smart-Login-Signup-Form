@@ -17,23 +17,35 @@
 
 <body>
 
-    <h2>Smart Login System</h2>
+    <h2>you are in the Smart Login System</h2>
     <div class="container" id="container">
-        <section>
-            
-        </section>
+        <div class="row">
+            <div class="col-md-12 m-5">
+                <div>
+                    <h1 id="personName"></h1>
+                    <br>
+                    <button class="m-5" onclick="window.close(); window.openHome();" id="SigninBtn">Log out</button>
+                </div>
+            </div>
+
+        </div>
     </div>
     <footer>
         <p>
             Created with <i class="fa fa-heart"></i> by
             <a target="_blank" href="https://www.facebook.com/profile.php?id=100004315860222">Ahmed Raouf</a>
             - Read how I created this and how you can join the challenge
-            <a target="_blank"
-                href="https://www.florin-pop.com/blog/2019/03/double-slider-sign-in-up-form/">here</a>.
+            <a target="_blank" href="https://www.florin-pop.com/blog/2019/03/double-slider-sign-in-up-form/">here</a>.
         </p>
         <script src="../js/popper.min.js"></script>
         <script src="../js/bootstrap.min.js"></script>
         <script src="../js/Main.js"></script>
+        <script>
+            document.getElementById("personName").innerHTML = "Welcome " + users[index].name;
+            function openHome() {
+                window.open("file:///D:/certifications/route/Assigments/Assigment%209/index.html?#");
+            }
+        </script>
     </footer>
 
 </body>
