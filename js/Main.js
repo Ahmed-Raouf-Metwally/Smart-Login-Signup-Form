@@ -43,7 +43,7 @@ SigninBtn.addEventListener('click', function () {
 	var pass = passSignin.value;
 	for (let i = 0; i < users.length && flag == false; ++i) {
 		if (email == users[index].email && pass == users[index].passWord) {
-			myWindow = window.open("file:///D:/certifications/route/Assigments/Assigment%209/HTML/Home.html");
+			myWindow = window.open("HTML/Home.html");
 			flag = true;
 			clrForm();
 			window.close();
