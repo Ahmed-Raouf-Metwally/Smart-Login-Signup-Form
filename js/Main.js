@@ -50,8 +50,8 @@ SigninBtn.addEventListener('click', function () {
 			index = i;
 		}
 	}
-	document.getElementById("personName").innerHTML = "Welcome " + users[i].name;
 });
+
 function clrForm() {
 	for (var i = 0; i < inputs.length; ++i) {
 		inputs[i].value = "";
