@@ -326,7 +326,7 @@ footer a {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     body {
         font-family: 'Montserrat', sans-serif;
         background: #f6f5f7;
